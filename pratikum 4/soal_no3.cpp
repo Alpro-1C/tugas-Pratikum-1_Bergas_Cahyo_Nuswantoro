@@ -4,13 +4,13 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Masukkan jumlah bilangan dalam deret Fibonacci: ";
+    cout << "Masukkan banyak elemen bilangan : ";
     cin >> n;
 
-    int a = 0; // Bilangan pertama dalam deret Fibonacci
-    int b = 1; // Bilangan kedua dalam deret Fibonacci
+    int a = 0; // Bilangan pertama dalam elemen bilangan
+    int b = 1; // Bilangan kedua dalam elemen bilangan
 
-    cout << "Deret Fibonacci dengan " << n << " bilangan: ";
+    cout << "elemen bilangan dengan " << n << " bilangan: ";
 
     for (int i = 0; i < n; i++) {
         cout << a << " ";
